@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.navitem{
+    font-weight: bold;
+}
+.signin{
+    border: 2px solid rgb(61, 115, 22);
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+.navsection{
+    margin-left: 50px;
+}
+.login{
+    background-color: rgb(61, 115, 22);
+    color: #f0f0f0;
+    font-weight: bold;
+
+}
+.logo{
+    font-weight: bold;
+    color: rgb(61, 115, 22);
+    font-size: 30px;
+}
+.sttext{
+    color: rgb(61, 115, 22);
+    font-size: 60px;
+}
+.learnmorebtn{
+    background-color: rgb(61, 115, 22);
+}
+.firstimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+  /* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+
+button:hover {
+    opacity:1;
+}
+
+
+.sec1{
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+.aboutus{
+    margin-left: 40px;
+}
+.titleaboutus {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.text{
+    color: rgb(61, 115, 22);
+}
+
+
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer .column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+.footer a {
+    color: #bbb;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+.footer a:hover {
+    color: white;
+}
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+@media (max-width: 768px) {
+    .footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}

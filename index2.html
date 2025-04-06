@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style2.css">
+</head>
+<body class="col-md-12">
+    <nav class="navbar navbar-expand-lg  container mb-5 ">
+        <div class="container-fluid">
+            <a class="logo navbar-brand" href="#">Healthy Food</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto md-2 mb-lg-0 navsection">
+                <li class="nav-item ">
+                    <a class="nav-link text-dark-emphasis navitem" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-black navitem" href="./index2.html">Scanner</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark-emphasis navitem" href="#">Contact Us</a>
+                </li>
+                
+            </div>
+            <div class="nav-item ms-auto">
+                <ul class="navbar-nav ms-auto md-2 mb-lg-0 navsection">
+                    <li class="nav-item signi"><a target="-blank" class="btn rounded-5 signi" href="./Sign up/index.html"> Sign Up</a></li>
+                    <li class="nav-item"><a target="_blank" class="btn rounded-5 login" href="./log in/index.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+</nav>
+<section>
+    <h1>📷 Food Health Scanner</h1>
+    <div class="scanner-box">
+        <input type="file" id="imageUpload" accept="image/*" />
+        <br>
+        <img id="food-preview" src="" alt="Food Preview" style="display:none;" />
+        <br>
+        <button onclick="analyzeFood()">Scan Food</button>
+        <div class="result" id="result"></div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="column">
+            <h3>Company</h3>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="column">
+            <h3>Support</h3>
+            <a href="#">Help Center</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="column">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><img src="./img/download.png" alt="Facebook"></a>
+                <a href="#"><img src="./img/download (1).png" alt="Twitter"></a>
+                <a href="#"><img src="./img/download (2).png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+    <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+</footer>
+
+
+
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script2.js"></script>
+</body>
+</html>
